@@ -1,0 +1,21 @@
+var tablica = [1,2,3,4,5,6];
+function minmax(tab){
+    var min, max;
+    min = max = tab[0];
+    if(tab.length < 2) {
+        
+        return;
+    }
+    for (var i =1; i < tab.length; i++) {
+        if(tab[i]>max){
+            max = tab[i];
+        }
+        if(tab[i]<min){
+            min = tab[i];
+        }
+    }
+    return [min,max];
+}
+
+var x = minmax(tablica);
+console.log(x);
