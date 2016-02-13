@@ -32,3 +32,5 @@ function pot(a,b){
 
 console.log(potegaFunction(2,3));
 console.log(pot(2,3));
+
+Math.abs(-1423);
