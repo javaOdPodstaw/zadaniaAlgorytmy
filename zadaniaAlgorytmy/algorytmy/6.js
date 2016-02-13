@@ -1,3 +1,6 @@
+/*
+// 6. Napisz funkcję, która odwróci elementy tadanej tablicy (w kolejności).
+// Nie korzystaj z metody .reverse();
 var table = [1,2,3];
 
 function reverse (tab){
@@ -6,6 +9,7 @@ function reverse (tab){
 		temp.push(tab[i]);
 	}
 	return temp;
-		
+
 }
 console.log(reverse(table));
+*/
